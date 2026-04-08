@@ -29,10 +29,27 @@ export default function Configuracao() {
                 <code>winget install --id Git.Git -e --source winget</code>
               </pre>
             </div>
-            <p className="text-xs text-amber-600 dark:text-amber-400 font-medium">
+          </section>
+
+          {/* Passo 1.1 */}
+          <section className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-white text-sm font-bold">1.1</span>
+              <h2 className="text-xl font-bold">Reiniciar o Visual studio</h2>
+            </div>
+           <p className="text-xl text-amber-600 dark:text-amber-400 font-medium">
               ⚠️ Lembre-se de reiniciar o VS Code após a instalação concluir!
             </p>
+            <p className="text-zinc-600 dark:text-zinc-400">
+              No terminal do VS Code verifique se a versão do github foi instalada:
+            </p>
+            <div className="relative group">
+              <pre className="bg-zinc-900 text-zinc-100 p-4 rounded-xl overflow-x-auto font-mono text-sm border border-zinc-700">
+                <code>git --version</code>
+              </pre>
+            </div>
           </section>
+
 
           {/* Passo 2 */}
           <section className="flex flex-col gap-4">
